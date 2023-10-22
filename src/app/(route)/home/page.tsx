@@ -1,7 +1,12 @@
 import * as S from './style';
+import * as C from './_components';
 
-export const Home = () => {
-  return <S.TestComponent>안녕하세요</S.TestComponent>;
+const Home = () => {
+  return (
+    <div>
+      <C.Header />
+    </div>
+  );
 };
 
 export default Home;
