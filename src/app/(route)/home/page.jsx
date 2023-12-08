@@ -3,9 +3,13 @@ import * as C from './_components';
 
 const Home = () => {
   return (
-    <div>
-      <C.Header />
-    </div>
+    <S.Container>
+      <div>
+        <C.Header />
+        <C.SearchTable />
+      </div>
+      <C.Footer />
+    </S.Container>
   );
 };
 

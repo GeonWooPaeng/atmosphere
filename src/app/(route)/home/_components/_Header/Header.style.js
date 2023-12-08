@@ -1,12 +1,17 @@
 'use client';
+
 import styled from 'styled-components';
 
 // header 전체
 export const Container = styled.div`
+  position: sticky;
+  top: 0;
+  z-index: 9999;
   padding: 1.5rem 5rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: white;
 `;
 
 // 로고 부분
