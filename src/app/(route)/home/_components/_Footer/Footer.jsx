@@ -10,8 +10,8 @@ const Footer = () => {
       <S.CompanyInfo>© 2023 Paeng, Inc.</S.CompanyInfo>
       <S.Link>
         <span>KOREA</span>
-        <Image src={instagram_svg} alt="인스타그램" />
-        <Image src={blog_svg} alt="블로그" />
+        <Image src={instagram_svg} alt="인스타그램" width={24} height={24} />
+        <Image src={blog_svg} alt="블로그" width={24} height={24} />
       </S.Link>
     </S.Container>
   );

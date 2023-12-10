@@ -6,8 +6,8 @@ import styled from 'styled-components';
 export const Container = styled.div`
   position: sticky;
   top: 0;
-  z-index: 9999;
-  padding: 1.5rem 5rem;
+  z-index: 3;
+  padding: 1.5rem 3%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -18,9 +18,10 @@ export const Container = styled.div`
 export const Logo = styled.div`
   display: flex;
   gap: 0.7rem;
+  cursor: pointer;
 
   > span {
-    color: #49634e;
+    color: #407f39;
     padding-bottom: 0.2rem;
     font-size: 1.25rem;
     font-weight: 700;
@@ -37,4 +38,5 @@ export const User = styled.div`
   gap: 0.875rem;
   border-radius: 1.875rem;
   border: 1px solid #ddd;
+  cursor: pointer;
 `;

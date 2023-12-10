@@ -3,6 +3,8 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
+  padding: 0 3%;
+
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -17,7 +19,6 @@ export const SearchBtnContainer = styled.div`
 `;
 
 export const SearchBtn = styled.div`
-  padding: 0.2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -41,15 +42,17 @@ export const SearchBtn = styled.div`
 export const SearchInputContainer = styled.div`
   width: 100%;
   margin-bottom: 1rem;
+
   display: flex;
   align-items: center;
   justify-content: center;
 `;
 
 export const SearchInput = styled.input`
-  width: 40%;
+  width: 40rem;
   margin-left: 2.5rem;
-  padding: 1rem 1.5rem;
+  padding: 1rem 2rem;
+
   font-size: 1.2rem;
   outline: none;
   border-radius: 2.5rem;
@@ -66,6 +69,7 @@ export const SearchInputBtn = styled.div`
   width: 1rem;
   height: 1rem;
   padding: 0.625rem;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -73,13 +77,17 @@ export const SearchInputBtn = styled.div`
   border-radius: 50%;
   background: #407f39;
   right: 3rem;
+  cursor: pointer;
 `;
 
 // grid 부분
 export const GridContainer = styled.div`
-  padding: 0 5rem;
   display: grid;
-  gap: 3rem 3rem;
-  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 3rem;
+  grid-template-columns: repeat(auto-fit, minmax(31rem, 1fr));
   grid-template-rows: auto;
+
+  @media screen and (max-width: 50rem) {
+    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+  }
 `;

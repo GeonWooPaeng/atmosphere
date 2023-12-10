@@ -4,7 +4,8 @@ import styled from 'styled-components';
 
 //footer 전체
 export const Container = styled.div`
-  padding: 1.5rem 5rem;
+  padding: 5rem 3% 3rem;
+
   display: flex;
   align-items: center;
   justify-content: space-between;

@@ -6,7 +6,7 @@ import StyledComponentsRegistry from './_libs/registry';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'Green Cup',
+  title: 'Green Mug',
 };
 
 export default function RootLayout({ children }) {
