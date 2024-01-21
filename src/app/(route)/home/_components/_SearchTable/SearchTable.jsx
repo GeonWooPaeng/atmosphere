@@ -135,7 +135,6 @@ const SearchTable = () => {
         search.location.includes(input_text)
       );
     });
-    console.log('>>>>>> ', input_text);
     set_search_data_arr(filter_search_data_arr);
   };
 
