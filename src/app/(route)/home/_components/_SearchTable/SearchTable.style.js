@@ -4,10 +4,19 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   padding: 0 3%;
-
   display: flex;
   flex-direction: column;
   gap: 2rem;
+`;
+
+export const SearchHeaderContainer = styled.div`
+  position: sticky;
+  top: 6.1rem;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  background-color: white;
 `;
 
 //검색에 따른 버튼(박람회 및 행사, 모임, MY)
