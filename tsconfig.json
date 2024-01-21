@@ -23,6 +23,6 @@
       "$/*": ["./public/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/(route)/home/_components/_Footer/Footer.style.js", "src/app/(route)/home/_components/_Footer/Footer.jsx", "src/app/(route)/home/_components/_Header/Header.style.js", "src/app/(route)/home/_components/_Header/Header.jsx", "src/app/(route)/home/_components/_SearchTable/SearchTable.style.js", "src/app/(route)/home/_components/_SearchTable/SearchTable.jsx", "src/app/(route)/home/_components/index.js", "src/app/(route)/home/page.jsx", "src/app/(route)/home/style.js", "src/app/layout.jsx", "src/app/page.jsx"],
   "exclude": ["node_modules"]
 }
