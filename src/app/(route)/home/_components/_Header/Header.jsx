@@ -25,7 +25,7 @@ const Header = () => {
     <S.Container>
       <S.Logo onClick={on_click_reload}>
         <Image src={logo_svg} alt="로고" />
-        <span>GREEN MUG</span>
+        <span>팽주팽</span>
       </S.Logo>
       <S.User onClick={on_click_user}>
         <Image src={menu_svg} alt="메뉴" />

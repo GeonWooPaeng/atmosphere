@@ -17,16 +17,15 @@ export const Container = styled.div`
 // 로고 부분
 export const Logo = styled.div`
   display: flex;
+  align-items: center;
   gap: 0.7rem;
   cursor: pointer;
 
   > span {
     color: #407f39;
-    padding-bottom: 0.2rem;
     font-size: 1.25rem;
     font-weight: 700;
     letter-spacing: 0.0625rem;
-    align-self: end;
   }
 `;
 
